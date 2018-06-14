@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BoxC from './BoxC'
-import logo from './logo.svg';
-import './App.css';
+import '../../App.css';
 
 class BoxB extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import BoxA from './BoxA';
-import Header from './Header';
+import BoxA from './components/Boxes/BoxA';
+import Header from './components/Headers/Header';
 import logo from './logo.svg';
 import './App.css';
 
