@@ -1,4 +1,4 @@
-#Redux Tutorial
+# Redux Tutorial
 
 A basic Redux implementation meant to show how Redux aids with state handling when you have multiple levels of nested components. 
 
@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App]
 
 based on this great [tutorial](https://www.valentinog.com/blog/react-redux-tutorial-beginners/) by Valentino Gagliardi
 
-##Highlights
+## Highlights
 * ./src/index.js contains basic setup using Store and Provider
 * /store, /actions, /reducers all contain standard function types used in Redux
 * HeaderD.js shows how to receive state values inside a component
