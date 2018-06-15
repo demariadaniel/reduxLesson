@@ -50,7 +50,7 @@ Currying is the term for functions which return a second function, and executing
 
 This is used in Redux as a way to combine presentational components we write with predefined functions in the react-redux library.
 
-##Default Values
+## Default Values
 ```javascript
 function defaultValues (name = "Dan", age = 31){
 	console.log(name)
@@ -68,14 +68,14 @@ because both of these values are provided.
 
 This is used in Redux for Reducers which need a default state at the beginning of your app, before any other state has been created.
 
-##Automatic Return in Arrow Functions
+## Automatic Return in Arrow Functions
 ```javascript
 let thing = ()=> 'item';
 console.log(thing())
 ```
 Single line arrow functions without { } will automatically return the return value of the statement they execute. In this example the function thing will return 'item' for example. This is used everywhere from actions to mapDispatchToProps/mapStatetoProps tos presentational components.
 
-##Destructuring
+## Destructuring
 ```javascript
 let data = {
 	name: 'Dan', 
@@ -97,7 +97,7 @@ work(data)
 The `=({var1, var2, ...})=>` syntax allows you to extract specific keys of
 an object as independent variables. 
 
-##Switch
+## Switch
 ```javascript
 switch(action.type) {
     case "ADD_TODO":
